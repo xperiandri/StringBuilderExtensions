@@ -1,5 +1,5 @@
 # String Builder Extensions #
-String Builder Extensions is a set of extension methods for **[System.Text.StringBuilder](http://msdn.microsoft.com/en-us/library/system.text.stringbuilder(v=vs.110).aspx)** that provide the same functionality as corresponding methods of **[System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)**.
+String Builder Extensions is a set of extension methods for **[System.Text.StringBuilder](http://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx)** that provide the same functionality as corresponding methods of **[System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)**.
 
 Available methods are:
 
