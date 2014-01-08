@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderExtensions", "StringBuilderExtensions\StringBuilderExtensions.csproj", "{01E836D1-40BF-49FA-9EE6-65EBB2F76650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderExtensionsTests", "StringBuilderExtensionsTests\StringBuilderExtensionsTests.csproj", "{054701DF-D8ED-434F-B708-075861F611D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01E836D1-40BF-49FA-9EE6-65EBB2F76650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E836D1-40BF-49FA-9EE6-65EBB2F76650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E836D1-40BF-49FA-9EE6-65EBB2F76650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E836D1-40BF-49FA-9EE6-65EBB2F76650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{054701DF-D8ED-434F-B708-075861F611D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{054701DF-D8ED-434F-B708-075861F611D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{054701DF-D8ED-434F-B708-075861F611D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{054701DF-D8ED-434F-B708-075861F611D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 5cf8613c-3894-430a-b76a-6b74315e9732
+	EndGlobalSection
+EndGlobal
