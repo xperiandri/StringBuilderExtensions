@@ -1,4 +1,28 @@
-﻿using System;
+﻿#region License
+// The MIT License (MIT)
+
+// Copyright (c) 2014 Andrii Chebukin as XperiAndri
+
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
+#endregion License
+
+using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Globalization;
@@ -281,7 +305,7 @@ namespace System.Text
         }
 
         /// <summary>
-        /// Removes all trailing occurrences of a set of characters specified in an array
+        /// Removes all leading and trailing occurrences of a set of characters specified in an array
         /// from the current <see cref="System.Text.StringBuilder"/> object.
         /// </summary>
         /// <param name="sb">A <see cref="System.Text.StringBuilder"/> to </param>
@@ -705,7 +729,8 @@ namespace System.Text
 
 
         /// <summary>
-        /// Reports the zero-based index of the last occurrence of the specified string in the current <see cref="System.Text.StringBuilder"/> object.
+        /// Reports the zero-based index of the last occurrence of the specified string 
+        /// in the current <see cref="System.Text.StringBuilder"/> object.
         /// </summary>
         /// <param name="sb">A <see cref="System.Text.StringBuilder"/> to </param>
         /// <param name="value">The string to seek.</param>
@@ -928,7 +953,7 @@ namespace System.Text
         }
 
         /// <summary>
-        /// Determine whether a string is begin with a given text.
+        /// Determines whether this instance of <see cref="System.Text.StringBuilder"/> starts with the specified string.
         /// </summary>
         /// <param name="sb">A <see cref="System.Text.StringBuilder"/> to compare.</param>
         /// <param name="value">The string to compare.</param>
@@ -970,7 +995,7 @@ namespace System.Text
         }
 
         /// <summary>
-        /// Determines whether the end of this <see cref="System.Text.StringBuilder"/> instance matches the specified string.
+        /// Determines whether this instance of <see cref="System.Text.StringBuilder"/> ends with the specified string.
         /// </summary>
         /// <param name="sb">A <see cref="System.Text.StringBuilder"/> to compare.</param>
         /// <param name="value">The string to compare to the substring at the end of this instance.</param>
