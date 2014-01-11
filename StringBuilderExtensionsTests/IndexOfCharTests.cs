@@ -92,7 +92,7 @@ namespace System.Text.Tests
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void TestIndexAfterLastCharacter1()
+        public void TestIndexAfterLastCharacter()
         {
             StringBuilder sb = new StringBuilder(TestStrings.ToIndexOfChars1);
             sb.IndexOf(TestStrings.SymbolsToTrim[0], sb.Length);
@@ -100,7 +100,7 @@ namespace System.Text.Tests
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void TestIndexAfterLastCharacter2()
+        public void TestIndexAfterLastCharacterWithCount()
         {
             StringBuilder sb = new StringBuilder(TestStrings.ToIndexOfChars2);
             sb.IndexOf(TestStrings.SymbolsToTrim[0], sb.Length);
