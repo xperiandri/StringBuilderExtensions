@@ -21,8 +21,10 @@ Available methods are:
 - **ToLowerInvariant** - Returns a StringBuilder converted to lowercase, using the casing rules of the invarian culture.
 - **ToUpper** (2 overrides) - Returns a StringBuilder converted to uppercase, using the casing rules of the specified culture.
 - **ToUpperInvariant** - Returns a StringBuilder converted to uppercase, using the casing rules of the invariant culture.
+
 ## NuGet ##
 The package is available on [NuGet](https://www.nuget.org/packages/XperiAndri.StringBuilderExtensions/).
 Use `PM> Install-Package XperiAndri.StringBuilderExtensions -Pre` command to install.
+
 ## License ##
 See the [license.md](https://github.com/xperiandri/StringBuilderExtensions/blob/master/license.md) file for details.
