@@ -1,4 +1,7 @@
 # String Builder Extensions #
+
+----------
+
 String Builder Extensions is a set of extension methods for **[System.Text.StringBuilder](http://msdn.microsoft.com/en-us/library/system.text.stringbuilder.aspx)** that provide the same functionality as corresponding methods of **[System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)**.
 
 Available methods are:
@@ -18,3 +21,8 @@ Available methods are:
 - **ToLowerInvariant** - Returns a StringBuilder converted to lowercase, using the casing rules of the invarian culture.
 - **ToUpper** (2 overrides) - Returns a StringBuilder converted to uppercase, using the casing rules of the specified culture.
 - **ToUpperInvariant** - Returns a StringBuilder converted to uppercase, using the casing rules of the invariant culture.
+## NuGet ##
+The package is available on [NuGet](https://www.nuget.org/packages/XperiAndri.StringBuilderExtensions/).
+Use `PM> Install-Package XperiAndri.StringBuilderExtensions -Pre` command to install.
+## License ##
+See the [license.md](https://github.com/xperiandri/StringBuilderExtensions/blob/master/license.md) file for details.
