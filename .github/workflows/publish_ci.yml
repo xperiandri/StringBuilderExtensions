@@ -1,0 +1,25 @@
+name: publish to MyGet
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+    - name: Build with dotnet
+      run: |
+        sed -i "s|<Version>\(.*\)</Version>|<Version>\1-ci-$GITHUB_RUN_ID</Version>|" StringBuilderExtensions\StringBuilderExtensions.csproj
+        dotnet pack --nologo --configuration Release -o nuget
+    - name: MyGet push
+      run: |
+        source=https://www.myget.org/F/xperiandri/api/v3/index.json
+        key=${{secrets.MyGet_Key}}
+        dotnet nuget push -s $source -k $key nuget/*.nupkg
