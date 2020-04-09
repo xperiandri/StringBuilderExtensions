@@ -1,9 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderExtensions", "StringBuilderExtensions\StringBuilderExtensions.csproj", "{01E836D1-40BF-49FA-9EE6-65EBB2F76650}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29924.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderExtensions", "StringBuilderExtensions\StringBuilderExtensions.csproj", "{01E836D1-40BF-49FA-9EE6-65EBB2F76650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringBuilderExtensionsTests", "StringBuilderExtensionsTests\StringBuilderExtensionsTests.csproj", "{054701DF-D8ED-434F-B708-075861F611D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringBuilderExtensionsTests", "StringBuilderExtensionsTests\StringBuilderExtensionsTests.csproj", "{054701DF-D8ED-434F-B708-075861F611D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{407C25AD-A79E-442D-A1EF-8ED289439CC0}"
+	ProjectSection(SolutionItems) = preProject
+		license.md = license.md
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub", "GitHub", "{7E7071CA-1460-450E-AFA2-4134C15080CA}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		.github\workflows\publish_ci.yml = .github\workflows\publish_ci.yml
+		.github\workflows\publish_release.yml = .github\workflows\publish_release.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +37,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92E327E4-BB79-41E9-88DE-65B35B27DE11}
 	EndGlobalSection
 	GlobalSection(CodealikeProperties) = postSolution
 		SolutionGuid = 5cf8613c-3894-430a-b76a-6b74315e9732
