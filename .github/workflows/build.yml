@@ -19,10 +19,13 @@ jobs:
       with:
         dotnet-version: 2.1.607
 
+    - name: Restore NuGet Packages
+      run: dotnet restore StringBuilderExtensions.sln
+
     - name: Build with dotnet
       run: |
         DOTNET_CLI_TELEMETRY_OPTOUT=1
-        dotnet build -c Release
+        msbuild StringBuilderExtensions.sln /p:Configuration=Release
 
     - name: Run Unit Tests
       run: |
